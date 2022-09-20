@@ -1,0 +1,8 @@
+{
+	"alwaysActivate": true,
+	"name" : "combo",
+	"directory" : "",
+	"resourceOnly" : false,
+	"prefersUpperDeviceIndices" :  false,
+	"hmd_presence" : []
+}
