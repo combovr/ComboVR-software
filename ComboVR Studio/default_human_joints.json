@@ -1,0 +1,155 @@
+{
+  "joints": [
+    "root",
+    "hips",
+    "spine",
+    "chest",
+    "upper_chest",
+    "neck",
+    "head",
+    "left_collar",
+    "left_shoulder",
+    "left_elbow",
+    "left_carpus",
+    "right_collar",
+    "right_shoulder",
+    "right_elbow",
+    "right_carpus",
+    "left_hip",
+    "left_knee",
+    "left_ankle",
+    "left_toe",
+    "right_hip",
+    "right_knee",
+    "right_ankle",
+    "right_toe"
+  ],
+
+
+  "hierarchy": [
+    {
+      "name": "root",
+      "children": ["hips"]
+    },
+    {
+      "name": "hips",
+      "children": ["spine", "left_hip", "right_hip"]
+    },
+
+    {
+      "name": "left_hip",
+      "children": ["left_knee"]
+    },
+    {
+      "name": "left_knee",
+      "children": ["left_ankle"]
+    },
+    {
+      "name": "left_ankle",
+      "children": ["left_toe"]
+    },
+    {
+      "name": "left_toe",
+      "children": []
+    },
+
+    {
+      "name": "right_hip",
+      "children": ["right_knee"]
+    },
+    {
+      "name": "right_knee",
+      "children": ["right_ankle"]
+    },
+    {
+      "name": "right_ankle",
+      "children": ["right_toe"]
+    },
+    {
+      "name": "right_toe",
+      "children": []
+    },
+
+    {
+      "name": "spine",
+      "children": ["chest"]
+    },
+    {
+      "name": "chest",
+      "children": ["upper_chest"]
+    },
+    {
+      "name": "upper_chest",
+      "children": ["neck", "left_collar", "right_collar"]
+    },
+
+    {
+      "name": "neck",
+      "children": ["head"]
+    },
+    {
+      "name": "head",
+      "children": []
+    },
+
+    {
+      "name": "left_collar",
+      "children": ["left_shoulder"]
+    },
+    {
+      "name": "left_shoulder",
+      "children": ["left_elbow"]
+    },
+    {
+      "name": "left_elbow",
+      "children": ["left_carpus"]
+    },
+    {
+      "name": "left_carpus",
+      "children": []
+    },
+
+    {
+      "name": "right_collar",
+      "children": ["right_shoulder"]
+    },
+    {
+      "name": "right_shoulder",
+      "children": ["right_elbow"]
+    },
+    {
+      "name": "right_elbow",
+      "children": ["right_carpus"]
+    },
+    {
+      "name": "right_carpus",
+      "children": []
+    }
+  ],
+
+  "rest_pose": {
+    "root": [0, 0, 0],
+    "hips": [0, -0.000015, 0.92645],
+    "spine": [-0.01, -0.000011, 1.0039],
+    "chest": [-0.010213, -0.000011, 1.110438],
+    "upper_chest": [-0.01038, -0.000011, 1.206274],
+    "neck": [-0.009947, -0.000011, 1.437062],
+    "head": [-0.009515, -0.000011, 1.530945],
+    "left_collar": [-0.009846, 0.019989, 1.377409],
+    "left_shoulder": [-0.010281, 0.182777, 1.377411],
+    "left_elbow": [-0.009637, 0.489775, 1.376492],
+    "left_carpus": [-0.009344, 0.785605, 1.376586],
+    "right_collar": [-0.009861, -0.020011, 1.377409],
+    "right_shoulder": [-0.010147, -0.183046, 1.378164],
+    "right_elbow": [-0.010257, -0.490045, 1.377629],
+    "right_carpus": [-0.010381, -0.785576, 1.376481],
+    "left_hip": [0.000026, 0.070715, 0.906],
+    "left_knee": [0.000014, 0.070261, 0.488576],
+    "left_ankle": [0.000014, 0.069831, 0.068754],
+    "left_toe": [0.151794, 0.070679, 0.004834],
+    "right_hip": [-0.000026, -0.070715, 0.906],
+    "right_knee": [-0.000037, -0.070261, 0.488576],
+    "right_ankle": [-0.000037, -0.06983, 0.068754],
+    "right_toe": [0.151616, -0.070795, 0.004535]
+  }
+}
